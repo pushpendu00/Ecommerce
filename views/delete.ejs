@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+</head>
+<body>
+    <!-- <input id="id-input" type="text" id="input" placeholder="Enter products id......" required><br><br>
+    <button onclick="deleteItems()">Delete</button> -->
+
+    <form action="/products/deleteById/" method="post">
+        <input id="id-input" type="text"  name="deleteId" placeholder="Enter products id......" required><br><br>
+        <button type="submit">Delete</button>
+    </form>
+
+    <!-- <script src="/js/script_delete.js"></script> -->
+
+</body>
+</html>
